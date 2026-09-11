@@ -22,7 +22,12 @@ npx agent-md install gh:lexoliu/gh-workflow-rules
 bunx agent-md install gh:lexoliu/gh-workflow-rules
 ```
 
-You pick which agent performs the merge (Claude Code or Codex) and which files
-to install into; the agent merges into a staging copy — asking you when your
-existing rules conflict — and `agent-md` shows you the diff for approval before
-anything is written.
+You pick which agent performs the merge (Claude Code, Codex, Devin,
+Antigravity, or Grok) and which files to install into; the agent merges into a
+staging copy — asking you when your existing rules conflict — and `agent-md`
+shows you the diff for approval before anything is written.
+
+## License
+
+Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or
+[MIT license](LICENSE-MIT) at your option.
